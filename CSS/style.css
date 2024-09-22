@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #0d1a2d;
+  height: 100%;
+  padding: 35px;
+}
+
+.img-section {
+  padding: 30px;
+  background-color: #15273f;
+  border-radius: 15px;
+}
+
+.single-img {
+  /* width: 446px; */
+  margin: 0 auto;
+}
+
+.single-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.contents > h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 35px 0;
+}
+
+.contents > p {
+  color: #7d96b4;
+  font-size: 1.6rem;
+  margin-bottom: 30px;
+}
+
+.calculation {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  border-bottom: 1px solid #2e4058;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.left,
+.right {
+  display: flex;
+  gap: 15px;
+  font-size: 1.6rem;
+}
+
+.persion-identity {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+
+.persion-identity img {
+  height: 100px;
+  width: 100px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.persion-identity span {
+  color: #829bbc;
+  font-size: 20px;
+}
+
+.persion-identity a {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .container {
+    background-color: #0d1a2d;
+    padding: 20px;
+  }
+
+  .img-section {
+    padding: 15px;
+    background-color: #15273f;
+    border-radius: 15px;
+    height: 89vh;
+    width: 25vw;
+    margin: 0 auto;
+  }
+
+  .single-img {
+    width: 160px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .single-img img {
+    border-radius: 10px;
+  }
+
+  .contents > h2 {
+    color: #fff;
+    font-size: 1rem;
+    margin: 10px 0;
+  }
+
+  .contents > p {
+    color: #7d96b4;
+    font-size: 0.6rem;
+    margin-bottom: 8px;
+  }
+
+  .calculation {
+    /* display: flex;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 1px solid #2e4058; */
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .left,
+  .right {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+    font-size: 0.5em;
+  }
+
+  .persion-identity {
+    gap: 20px;
+  }
+
+  .persion-identity img {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+  }
+
+  .persion-identity span {
+    color: #829bbc;
+    font-size: 10px;
+  }
+
+  .persion-identity a {
+    /* text-decoration: none;
+    color: #fff;
+    cursor: pointer; */
+  }
+}
